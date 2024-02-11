@@ -1,0 +1,12 @@
+// Exemplo de uso
+public class Main {
+
+    public static void main(String[] args) {
+
+        PessoaFisica pf = new PessoaFisica("João Silva", "Rua A, 123", "123.456.789-00");
+        PessoaJuridica pj = new PessoaJuridica("Empresa X", "Rua B, 456", "01.234.567/0001-89");
+
+        System.out.println(pf);
+        System.out.println("\n" + pj);
+    }
+}
